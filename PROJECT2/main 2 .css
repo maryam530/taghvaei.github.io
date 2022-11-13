@@ -1,0 +1,288 @@
+/* Global system */
+@font-face{
+    font-family: ubuntu;
+    src: url("src/fonts/Ubuntu-Regular.ttf");
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(200, 198, 198);
+    font-family: ubuntu;
+    vertical-align:top ;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    /* border: 1px solid red; */
+    font-size:16px;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 9;
+    padding: 15px;
+    left: 0;
+    top: 0;
+    display: block;
+
+}
+nav ul {
+    list-style:none ;
+}
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+    width: 110px;
+}
+nav a{
+
+    text-decoration: none;
+    color: #333;
+}
+.main-title{
+    /* background-color: rgba(255,255,255,0.5); */
+    font-size: 4em;
+    margin: 60px;
+    text-align: center;
+   
+}
+.top-container,
+.middle-contaner{
+     /* background-color: aquamarine; */
+    /* height: 300px;  */
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.top-left{
+    /* height: 300px; */
+    /* background-color: red; */
+    display: inline-block;
+    width: 40%;
+    margin: 50px;
+    text-align: center;
+    vertical-align: top;
+
+}
+.top-right{
+    /* height: 300px; */
+    /* background-color: black; */
+    display: inline-block;
+    width: 40%;
+    margin: 50px;
+    text-align: center;
+    vertical-align: top;
+
+}
+h2{
+    font-size: small;
+}
+
+.top-left img,
+.top-right img{
+    margin-bottom: 50px;
+
+}
+#compare{
+    background-color: #f48080;
+    padding: 50px;
+}
+.color-circle{
+    /* border:1px solid red; */
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 25px 1px;
+    display: inline-block;
+
+}
+.color-circle-1{
+    background-color: #0d3d8a;
+}
+.color-circle-2{
+    background-color:#c3720f ;
+}
+
+.compare-item:first-child{
+    margin-top: 40px;
+}
+.compare-item{
+    margin-bottom: 50px;
+
+}
+.middle-left #last-item{
+    margin-bottom: 55px !important;
+}
+.bottom-container{
+    width: 96%;
+    margin: 1% auto;
+    /* background-color: #c3720f; */
+    text-align: center;
+}
+.bottom-left{
+    width: 47%;
+    margin: 1%;
+    display:inline-block ;
+    vertical-align: top;
+}
+.bottom-item-box{
+    background-color: #f2f2f2;
+    height: 610px;
+
+}
+.bottom-item-box .bottom-item-text{
+    padding: 10%;
+}
+.bottom-item-box .bottom-item-text h2{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.bottom-item-box .bottom-item-text h3{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.bottom-right{
+    width: 47%;
+    margin: 1%;
+    display:inline-block ;
+    vertical-align: top;
+}
+.bottom-item-box-image{
+    position: relative;
+    margin-top: -10px;
+    /* background-color: goldenrod; */
+
+}
+.bottom-item-text-absolute{
+    position: absolute;
+    top: 28%;
+    width: 90%;
+    padding: 5%;
+    
+
+}
+.bottom-item-text-absolute h2{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 15px;
+    
+}
+.bottom-item-text-absolute p{
+    color: #fff;
+    font-weight: bold;
+}
+footer{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 50px;
+    font-size: 22px;
+}
+@media only screen and (max-width:768px){
+    nav ul li{
+       /* width:100%; */
+       max-width: 65px;
+       font-size: 14px;
+    }
+    nav ul li:first-child{
+        width: 50px;
+
+    }
+    nav ul li:nth-child(2){
+        width: 45px;
+
+}
+.main-title{
+ font-size: 2em;   
+}
+.top-container,
+.middle-contaner{
+    width: 100%;
+}
+.top-right,
+.top-left{
+    width: 90%;
+    margin:0 10px 30px ;
+
+
+}
+.top-left .slogan,
+.top-right .slogan{
+    margin: 30px 0;
+    font-size: 30px;
+}
+.middle-contaner{
+    width: 90%;
+    text-align: center;
+}
+.middle-left,
+.middle-center,
+.middle-right{
+    width: 92%;
+    display:block;
+    text-align: center;
+
+}
+
+}
+#compar{
+    padding: 20px;
+
+}
+.bottom-left,
+.bottom-right{
+    width: 98%;
+    
+    display:block ;
+    vertical-align: top;
+}
+.bottom-item-box
+{
+    
+    height: 488px;
+    margin:15px 0 ;
+
+}
+.bottom-item-box-image{
+    
+    
+    margin:15px 0 ;
+    
+   
+
+}
+.bottom-item-text-absolute{
+    top:18%;
+}
+.bottom-item-text-absolute h2{
+    font-size: 40px;
+}
+    
+
+#space{
+    height: 800px;
+}
+
+.middle-left,
+.middle-center,
+.middle-right{
+    width: 30%;
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    vertical-align:top ;
+
+}
+
+
+ /* .middle-center{
+    width: 30%;
+    display: inline-block; 
+
+ } 
+.middle-right{
+    width: 30%;
+    display: inline-block;
+
+}
+ */
